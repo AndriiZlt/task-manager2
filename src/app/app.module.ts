@@ -27,7 +27,13 @@ import { TaskViewComponent } from './pages/task-view/task-view.component';
     FormsModule,
     RouterModule,
   ],
-  entryComponents: [AppComponent],
+  entryComponents: [
+    AppComponent,
+    TaskComponent,
+    HomeViewComponent,
+    FilterTasksformPipe,
+    TaskViewComponent,
+  ],
   declarations: [
     AppComponent,
     TaskComponent,
@@ -35,7 +41,13 @@ import { TaskViewComponent } from './pages/task-view/task-view.component';
     FilterTasksformPipe,
     TaskViewComponent,
   ],
-  bootstrap: [AppComponent],
+  bootstrap: [
+    AppComponent,
+    TaskComponent,
+    HomeViewComponent,
+    FilterTasksformPipe,
+    TaskViewComponent,
+  ],
   providers: [
     {
       provide: MAT_FORM_FIELD_DEFAULT_OPTIONS,
