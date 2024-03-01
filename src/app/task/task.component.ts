@@ -25,6 +25,6 @@ export class TaskComponent implements OnInit {
 
   ngOnInit(): void {}
   onCardClick(index) {
-    this.router.navigate(['/task-view'], { queryParams: { index: index } });
+    this.router.navigate(['/task'], { queryParams: { index: index } });
   }
 }

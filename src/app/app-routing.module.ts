@@ -5,11 +5,11 @@ import { TaskViewComponent } from './pages/task-view/task-view.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeViewComponent,
   },
   {
-    path: 'task-view',
+    path: 'task',
     component: TaskViewComponent,
   },
 ];

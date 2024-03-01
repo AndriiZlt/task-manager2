@@ -21,9 +21,8 @@ export class TaskViewComponent implements OnInit {
   // @Output() onTaskDelete: EventEmitter<any> = new EventEmitter<any>();
   constructor(
     private route: ActivatedRoute,
-    private router: Router
-  ) // @Inject(HomeViewComponent) private data
-  {}
+    private router: Router // @Inject(HomeViewComponent) private data
+  ) {}
   taskIndex: number;
   task: Task;
   ngOnInit(): void {
@@ -37,6 +36,6 @@ export class TaskViewComponent implements OnInit {
   onCheckClick() {}
   onTaskDelete() {}
   onCardClick() {
-    this.router.navigate(['/']);
+    this.router.navigate(['']);
   }
 }
